@@ -1,43 +1,81 @@
-body {
-    background-color: bisque;
-    font-family: 'Merriweather', serif;
-    text-align: center;
-}
-
-h1 {
-    font-family: 'Sacramento', cursive;
-}
-
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: black;
-    border-width: 5px;
-    width: 5%;
-}
-
-.first {
-    padding-top: 100px;
-    position: relative;
-    left: 200px;
-}
-
-.second {
-    position: absolute;
-}
-
-.me {
-    border: dotted;
-    border-radius: 100px;
-    position: relative;
-    top: 20px;
-}
-
-.maths {
-    border: calc();
-    border-radius: 20px;
-}
-
-.computer {
-    border: double;
-}
+  body {
+        background-color: bisque;
+        font-family: 'Merriweather', serif;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 30px;
+    }
+    
+    h1 {
+        color: #66BFBF;
+        font-size: 90px;
+        font-family: 'Sacramento', cursive;
+    }
+    
+    h2 {
+        color: #66BFBF;
+        font-size: 50px;
+        font-family: 'Sacramento', cursive;
+    }
+    
+    h3 {
+        color: #11999E;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    hr {
+        border-style: none;
+        border-top-style: dotted;
+        border-color: black;
+        border-width: 5px;
+        width: 5%;
+    }
+    
+    .first {
+        padding-top: 100px;
+        position: relative;
+        left: 200px;
+    }
+    
+    .second {
+        position: absolute;
+    }
+    
+    .skill-row {
+        width: 50%;
+        line-height: 2;
+        margin: 100px auto 100px auto;
+        text-align: left;
+    }
+    
+    .me {
+        border: dotted;
+        border-radius: 100px;
+        position: relative;
+        top: 20px;
+    }
+    
+    .maths {
+        border-radius: 20px;
+        width: 25%;
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .computer {
+        border: double;
+        width: 25%;
+        float: right;
+        margin-right: 30px;
+    }
+    
+    .middle-container {
+        background-color: antiquewhite;
+    }
+    
+    .bottom-container {
+        margin: 20px;
+    }
